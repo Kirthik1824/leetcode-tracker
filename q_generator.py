@@ -7,7 +7,7 @@ from google.oauth2.service_account import Credentials
 from syllabus import SYLLABUS
 
 LEETCODE_GRAPHQL = "https://leetcode.com/graphql"
-SHEET_NAME = "LeetCode Tracker"
+SHEET_NAME = "Software_Daily_Questions"
 QUESTIONS_PER_DAY = 2
 START_DATE = date(2026, 1, 29)   # <-- change once
 
