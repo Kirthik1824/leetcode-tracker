@@ -64,7 +64,9 @@ def main():
     )
 
     client = gspread.authorize(creds)
-    sheet = client.open(SHEET_NAME).sheet1
+    SHEET_ID = "PASTE_YOUR_SHEET_ID_HERE"
+    sheet = client.open_by_key(SHEET_ID).sheet1
+
 
     existing = set(sheet.col_values(5))
 
